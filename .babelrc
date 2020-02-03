@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties", {"loose": true}],
+    "@babel/transform-runtime"
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": [ "@babel/preset-env" ]
+    }
+  }
+}
